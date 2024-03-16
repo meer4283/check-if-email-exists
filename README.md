@@ -189,3 +189,7 @@ Feel free to check out Reacher's [FAQ](https://help.reacher.email/faq).
 ## 🔨 Build From Source
 
 Build the [CLI from source](./cli/README.md#build-from-source) or the [HTTP backend from source](./backend/README.md#build-from-source).
+
+docker build -t my-reacher-app .
+
+docker run -p 8080:8080 -d my-reacher-app

@@ -51,3 +51,5 @@ EXPOSE 8080
 ENTRYPOINT []
 
 CMD ["./docker.sh"]
+
+
